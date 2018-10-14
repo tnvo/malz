@@ -1,3 +1,12 @@
+"""
+Dump out the PE header info for a file
+
+Usage:
+Change the "file.exe"
+$ python dump_pe_info.py
+
+"""
+
 #!/usr/bin/python
 
 pe = pefile.PE("file.exe")
