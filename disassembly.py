@@ -1,4 +1,12 @@
-"""Disassemble a PE file and dump the code"""
+"""
+# disassembly.py
+Disassemble a PE file and dump the code
+
+Usage:
+Change the "your_file.exe" to specific file
+$ python disassembly.py
+
+"""
 
 #!/usr/bin/python
 
