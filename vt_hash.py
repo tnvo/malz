@@ -3,13 +3,14 @@ Utilizing VirusTotal's API to send a hash and receive back results from differen
 
 Usage:
 $ md5sum file.exe
-$ python vt-hash.py [hash_here]
+$ python vt_hash.py [hash_here]
 
 VT Results:
 [AV Engine] -> [Malware Name]
 
 
 """
+#!/usr/bin/python
 
 import urllib
 import urllib2
